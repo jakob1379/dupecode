@@ -6,9 +6,9 @@ projects. Detects exact clones, parameterized clones (same structure, different
 names/values), and near-clones.
 
 Usage:
-    python dupecode.py [options] <path> [<path>...]
-    python dupecode.py --min-lines 6 src/
-    python dupecode.py --check --threshold 90 src/
+    dupecode [options] <path> [<path>...]
+    dupecode --min-lines 6 src/
+    dupecode --check --threshold 90 src/
 
 Options:
     --min-lines N       Minimum lines for a clone (default: 5)
